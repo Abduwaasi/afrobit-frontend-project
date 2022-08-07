@@ -97,7 +97,8 @@ const Register = () => {
                       <a>Privacy Policy </a>
                     </Link>
                     , and I agree to the processing of my personal data for the
-                    purpose of "To Register you as a new customer" accordingly
+                    purpose of &quot;To Register you as a new customer&quot;
+                    accordingly
                   </span>
                 </AppCheckbox>
               </Form>
