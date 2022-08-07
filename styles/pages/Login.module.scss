@@ -1,0 +1,99 @@
+.main {
+  width: 100%;
+  background-color: #363636;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 85px;
+
+  &__ellipse {
+    background: url("../../public/static/ellipse.svg");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 700px;
+    padding-top: 42px;
+
+    &__formCenter {
+      width: 416px;
+      background: #211f20;
+      box-shadow: 0px 2px 8px rgba(15, 15, 15, 0.1);
+      border-radius: 24px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 29px 36px 94px 36px;
+
+      &__btnWrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 38px;
+        margin-bottom: 24px;
+
+        &__email {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 29px;
+          color: #fac55b;
+          background-color: transparent;
+          border: 0;
+        }
+        &__phone {
+          background-color: transparent;
+          border: 0;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 29px;
+          letter-spacing: -0.03em;
+          color: #7c7c7c;
+        }
+      }
+      &__forgot {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.03em;
+        text-decoration-line: underline;
+        color: #f9c65c;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 18px;
+      }
+      &__options {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 24px;
+        margin-bottom: 36px;
+
+        span {
+          width: 59.01px;
+          height: 0px;
+          border: 1px solid #424242;
+        }
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 22px;
+          text-align: center;
+          color: #696969;
+        }
+      }
+      &__alternative {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 46px;
+      }
+      &__inputWrapper {
+        margin-bottom: 17px;
+      }
+    }
+  }
+}

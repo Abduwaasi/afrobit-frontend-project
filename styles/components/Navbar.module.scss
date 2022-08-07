@@ -1,0 +1,44 @@
+.nav {
+  width: 100%;
+  height: 130px;
+  background: #211f20;
+  box-shadow: 5px 10px 25px rgba(51, 51, 51, 0.25);
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  &__logo {
+    flex: 0 0 87px;
+    height: 74px;
+    margin-right: 64px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 39px;
+
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 64px;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+    }
+  }
+  &__btnWrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex: 1;
+
+    &__btn {
+      width: 183px;
+      height: 58px;
+    }
+  }
+}

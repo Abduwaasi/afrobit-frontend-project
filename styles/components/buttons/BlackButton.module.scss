@@ -1,0 +1,26 @@
+.button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  //   background: linear-gradient(96.84deg, #edd78f 1.46%, #fdbf4a 92.56%);
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  //   background-clip: text;
+  //   text-fill-color: transparent;
+  background: #211f20;
+  box-shadow: 5px 10px 25px rgba(51, 51, 51, 0.25);
+  border-radius: 0px;
+  color: #fff;
+  border: 0;
+  padding: 18px 45px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fdbf4a;
+}
