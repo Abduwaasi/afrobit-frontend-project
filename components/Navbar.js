@@ -35,10 +35,10 @@ const Navbar = () => {
       </ul>
       <div className={styles.nav__btnWrapper}>
         <div className={styles.nav__btnWrapper__btn}>
-          <BlackButton text="Login" />
+          <BlackButton text="Login" href="/login" />
         </div>
         <div className={styles.nav__btnWrapper__btn}>
-          <YellowButton text="Register" />
+          <YellowButton text="Register" href="/register" />
         </div>
       </div>
     </nav>
